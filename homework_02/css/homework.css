@@ -1,5 +1,4 @@
 /**** Task 1 ****/
-
 @media print {
 	.tm-sidebar,
 	#about,
@@ -47,5 +46,64 @@
 }
 
 /**** Task 2 ****/
+/*todo:*/
+
+/**** Task 3 ****/
+p:first-letter {
+	color: #76cdd7;
+	font-size: 30px;
+}
+
+/**** Task 4 ****/
+.tm-main-nav,
+.tm-content-box,
+section.blocks .pad,
+footer > p {
+	box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.39);
+}
+
+section.blocks .flex-2-col {
+	box-shadow: none;
+}
+
+/**** Task 5 ****/
+/*todo:*/
+
+
+/**** Task 6 ****/
+#ideas .tm-section-title {
+	color: gainsboro;
+	letter-spacing: 5px;
+}
+
+/**** Task 7 ****/
+h2 + p {
+	font-style: italic;
+}
+
+/**** Task 8 ****/
+.flex-2-col .tm-team-description-container p {
+	text-indent: 15px;
+    line-height: 2;
+}
+
+/**** Task 9 ****/
+/*todo:*/
+
+/**** Task 10 ****/
+.blocks .gallery-container .box:nth-child(2n + 1) {
+	background-color: #e6e6e6;
+}
+
+/**** Task 11 ****/
+/*todo:*/
+
+/**** Task 12 ****/
+/*todo:*/
+
+
+
+
+
 
 
