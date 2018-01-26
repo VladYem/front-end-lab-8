@@ -1,0 +1,51 @@
+/**** Task 1 ****/
+
+@media print {
+	.tm-sidebar,
+	#about,
+	.heading,
+	.blocks,
+	.ideas,
+	.tm-content-box {
+		display: none;
+	}
+
+	.container {
+		max-width: 100%;
+	}
+
+	#home,
+	.flex-2-col {
+		display: block;
+	}
+
+	.tm-main-content {
+		width: 100%;
+	    margin: 0;
+	    padding: 0;
+	}
+
+	#home {
+		height: 260px;
+		margin-bottom: 0;
+	}
+
+	.tm-team-description-container {
+		padding-top: 0;
+    	padding-bottom: 0;
+    	max-width: 665px;
+    	text-align: left;	
+	}
+
+	h2.tm-section-title {
+		color: blue;
+	}
+
+	.flex-item:nth-child(2) {
+		text-align: center;
+	}
+}
+
+/**** Task 2 ****/
+
+
