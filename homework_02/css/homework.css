@@ -46,7 +46,21 @@
 }
 
 /**** Task 2 ****/
-/*todo:*/
+ul.gallery-container .box:nth-child(2),
+ul.gallery-container .box:nth-child(8) {
+	border-left: none !important;
+	border-right: none !important;
+}
+
+ul.gallery-container .box:nth-child(4),
+ul.gallery-container .box:nth-child(6) {
+	border-top: none !important;
+	border-bottom: none !important;
+}
+
+ul.gallery-container .box:nth-child(5) {
+	border: none !important;
+}
 
 /**** Task 3 ****/
 p:first-letter {
@@ -67,7 +81,9 @@ section.blocks .flex-2-col {
 }
 
 /**** Task 5 ****/
-/*todo:*/
+ul.gallery-container .box a img {
+	border: 2px solid silver;
+}
 
 
 /**** Task 6 ****/
@@ -88,17 +104,49 @@ h2 + p {
 }
 
 /**** Task 9 ****/
-/*todo:*/
+.heading ol li a:visited {
+	color: silver;
+	text-decoration: none;
+}
 
+.heading ol li a {
+	color: black;
+}
+
+.heading ol li a:hover {
+	color: #0275d8;
+}
+
+.heading ol li .text:after {
+	content: 'New';
+	display: inline-block;
+	color: red;
+	font-size: 10px;
+    vertical-align: super;
+}
 /**** Task 10 ****/
 .blocks .gallery-container .box:nth-child(2n + 1) {
 	background-color: #e6e6e6;
 }
 
 /**** Task 11 ****/
-/*todo:*/
+.tm-sidebar .tm-nav-item {
+	border-bottom: 1px solid silver;
+}
+
+.tm-sidebar .tm-nav-item:last-child {
+	border-bottom: none;
+}
 
 /**** Task 12 ****/
+.tm-content-box form[action="#contact"] .form-control {
+	color: red;
+}
+
+.tm-content-box form[action="#contact"] button {
+	color: red;
+}
+/**** Task 13 ****/
 /*todo:*/
 
 
