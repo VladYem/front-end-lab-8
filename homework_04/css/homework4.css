@@ -1,0 +1,55 @@
+/* Header-navigation */
+.site-header {
+	position: absolute;
+    width: 100%;
+    padding: 35px 0;
+}
+
+.site-header__logo {
+	display: block;
+	float: left;
+}
+
+.site-header__menu {
+	display: block;
+	float: right;
+}
+
+.site-header__menu ul {
+	margin: 0;
+    padding: 0;
+}
+
+.site-header__menu li {
+	list-style: none;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.site-header__menu li:last-child {
+	padding-right: 0;
+}
+
+.site-header__menu li a,
+.site-header__logo a {
+	font-size: 15px;
+	color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    padding: 7px 7px;
+}
+
+.site-header__logo a {
+	letter-spacing: 3px;
+}
+
+.site-header__menu li a:hover {
+	border-bottom: 2px solid #B7C8D9;
+}
+
+
+img {
+	max-width: 100%;
+}
