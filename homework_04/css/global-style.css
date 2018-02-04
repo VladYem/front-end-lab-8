@@ -13,9 +13,13 @@
 
 .wrapper {
 	overflow: hidden;
-	max-width: 1000px;
+	max-width: 1110px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.page-section {
+	padding: 125px 0;
 }

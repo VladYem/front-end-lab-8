@@ -1,8 +1,10 @@
 /* Header-navigation */
+
 .site-header {
 	position: absolute;
     width: 100%;
     padding: 35px 0;
+    z-index: 2;
 }
 
 .site-header__logo {
@@ -47,9 +49,4 @@
 
 .site-header__menu li a:hover {
 	border-bottom: 2px solid #B7C8D9;
-}
-
-
-img {
-	max-width: 100%;
 }
