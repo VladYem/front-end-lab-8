@@ -1,0 +1,42 @@
+.site-header {
+    width: 100%;
+    padding: 35px 0;
+}
+
+.site-header__logo {
+    display: block;
+    float: left;
+    padding-right: 50px;
+}
+
+.site-header__menu-content {
+    display: block;
+    float: left;
+    padding: 7px 0;
+}
+
+.site-header__menu-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-header__menu-content li {
+    list-style: none;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.site-header__menu-content li a{
+    font-size: 15px;
+    color: #464547;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 7px 7px;
+}
+
+.site-header__menu-content li a:hover {
+    color: #39c2d7;
+}

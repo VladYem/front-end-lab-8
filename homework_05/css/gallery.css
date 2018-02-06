@@ -1,0 +1,18 @@
+.gallery .flex-wrapper {
+	display: flex;
+    flex-wrap: wrap;
+}
+.gallery__news-content {
+	flex: 0 0 31.33%;
+    margin: 1%;
+    padding: 8px;
+    background-color: silver;
+}
+
+.gallery__news-content:first-child {
+	background: #39c2d7;
+}
+
+.gallery__news-content-container img {
+	width: 100%
+}

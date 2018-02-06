@@ -1,0 +1,42 @@
+.large-picture {
+	position: relative;
+}
+
+.large-picture__img img {
+	max-width: 100%;
+}
+
+.large-section__text-content {
+	position: absolute;
+    font-size: 29px;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+.large-section__text-content .content {
+	max-width: 265px;
+}
+
+.gallery .flex-wrapper {
+	display: flex;
+    flex-wrap: wrap;
+}
+.gallery__news-content {
+	flex: 0 0 31.33%;
+    margin: 1%;
+    padding: 8px;
+    background-color: silver;
+}
+
+.gallery__news-content:first-child {
+	background: #39c2d7;
+}
+
+.gallery__news-content-container img {
+	width: 100%
+}
+
+
+
