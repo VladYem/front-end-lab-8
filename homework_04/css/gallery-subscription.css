@@ -56,3 +56,9 @@
 /*.gallery__content {
 	background-image: linear-gradient(to right bottom, gray, black);
 }*/
+
+/* Subscription section */
+.gallery-subscription .subscription {
+	background: #fff;
+    padding: 65px 90px;
+}
