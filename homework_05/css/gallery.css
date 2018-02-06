@@ -2,6 +2,7 @@
 	display: flex;
     flex-wrap: wrap;
 }
+
 .gallery__news-content {
 	flex: 0 0 31.33%;
     margin: 1%;
@@ -9,10 +10,26 @@
     background-color: silver;
 }
 
-.gallery__news-content:first-child {
+.gallery__news-content:hover {
 	background: #39c2d7;
 }
 
 .gallery__news-content-container img {
 	width: 100%
 }
+
+@media screen and (max-width: 900px) {
+	.gallery__news-content {
+		flex: 0 0 46%;
+	    margin: 1%;
+	}
+
+	.gallery__news-content-container img {
+		width: auto;
+	}
+	
+	.gallery__news-img {
+		text-align: center;
+	}
+}
+

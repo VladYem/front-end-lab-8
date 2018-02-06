@@ -1,0 +1,34 @@
+footer {
+	padding: 15px 0;
+	background-color: #39c2d7;
+}
+
+.footer__info {
+	float: left;
+	max-width: 50%;
+}
+.footer p {
+	display: inline-block;
+	padding: 0 15px;
+	color: #fff;
+}
+
+.footer p a {
+	color: #fff;
+}
+
+.footer p:nth-child(2) a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+	.footer {
+		text-align: center;
+	}
+
+	.footer__info {
+		margin: auto;
+    	margin-bottom: 20px;
+    	float: none;
+	}
+}

@@ -40,3 +40,20 @@
 .site-header__menu-content li a:hover {
     color: #39c2d7;
 }
+
+@media screen and (max-width: 900px) {
+    .site-header {
+        text-align: center;
+    }
+
+    .site-header__logo{
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .site-header__menu-content {
+        display: inline-block;
+        float: none;
+    }
+}
